@@ -117,9 +117,8 @@
 	<!--deploy a nexus-->
 	<distributionManagement>
     	<repository>
-			<jib.docker.image>
-				scl.ocir.io/ososabe/repo_jar/${project.artifactId}
-		        </jib.docker.image>
+			<id>nexus</id>
+			<url>http://nexus-for-kie-artefacts-cicd.apps.contraloria.cl/repository/maven-releases/</url>
 		</repository>
     </distributionManagement>
 </project>
