@@ -9,7 +9,7 @@
 	<artifactId>safre-dm-1</artifactId>
 	<version>1.0</version>
 
-	<packaging>kjar</packaging>
+	<packaging>jar</packaging>
 
 	<name>SAFRE Rules Project</name>
 	<description>SAFRE Rules Project :: Decision Manager :: CGR</description>
